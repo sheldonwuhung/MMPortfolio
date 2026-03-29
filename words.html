@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Words Project</title>
+    </head>
+    <body>
+        <h1>Food Dictionary</h1>
+
+        <div>
+            <h2>Choose a Word</h2>
+            <select id="select-word" required>
+                <option data-sentence="Please select a word!">--Select--</option>
+                <option data-sentence="Pizza is a baked dish made with dough, sauce, cheese, and various toppings.">Pizza</option>
+                <option data-sentence="Sushi is a Japanese food made with vinegared rice and seafood or vegetables.">Sushi</option>
+                <option data-sentence="Chocolate is a sweet food made from cocoa beans and often used in desserts.">Chocolate</option> 
+                <option data-sentence="Pasta is a type of noodle made from wheat and commonly served with sauce.">Pasta</option>
+                <option data-sentence="A burger is a sandwich made with a patty placed inside a bun with toppings.">Burger</option>
+            </select>
+
+            <button id="word-speak-button">Speak Word</button>
+        </div>
+
+        <br>
+
+        <div>
+            <h2>Sentence</h2>
+            <textarea id="sentence-textarea" name="sentence" rows="5" cols="50" readonly></textarea>
+            <br>
+            <button id="sentence-speak-button">Speak Sentence</button>
+        </div>
+
+        <script src="wordFuncs.js"></script>
+    </body>
+</html>
