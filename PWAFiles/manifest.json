@@ -1,6 +1,6 @@
 {
-    "name": "Hello PWA",
-    "short_name": "Hello",
+    "name": "How to Play Badminton PWA",
+    "short_name": "Badminton Guide",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ffffff",
