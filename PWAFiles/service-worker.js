@@ -1,4 +1,4 @@
-const cacheName = 'hello-pwa-v4';
+const cacheName = 'hello-pwa-v5';
 const staticAssets = [
     'index.html',
     'style.css',
